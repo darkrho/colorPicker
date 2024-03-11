@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react/jsx-no-target-blank': 'off',
+    'eslint-disable-next-line react/prop-types': 'false',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
